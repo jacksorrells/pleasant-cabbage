@@ -1,2 +1,4 @@
 ---
-actions: []
+actions:
+- label: Our Story
+  url: "/our-story"
