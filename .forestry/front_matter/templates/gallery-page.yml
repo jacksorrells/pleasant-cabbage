@@ -1,4 +1,23 @@
 ---
 label: Gallery Page
 hide_body: false
-fields: []
+fields:
+- name: page_title
+  type: text
+  config:
+    required: false
+  label: Page Title
+- name: page_subtitle
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Page Subtitle
+- name: gallery_upload
+  type: image_gallery
+  config: {}
+  label: Gallery Upload
+  description: Upload gallery images here
