@@ -38,5 +38,5 @@ fields:
   config:
     required: true
 pages:
-- src/pages/our-work.md
 - src/pages/generic.md
+- src/pages/our-work.md
