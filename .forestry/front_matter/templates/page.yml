@@ -38,5 +38,6 @@ fields:
   config:
     required: true
 pages:
+- src/pages/our-story.md
 - src/pages/generic.md
 - src/pages/our-work.md
